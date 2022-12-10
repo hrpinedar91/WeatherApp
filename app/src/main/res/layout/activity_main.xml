@@ -15,6 +15,21 @@
             android:padding="5dp"
             android:layout_gravity="bottom"
             android:orientation="vertical">
+            <Button
+                android:id="@+id/bogota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bogotá" />
+            <Button
+                android:id="@+id/medellin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medellin" />
+            <Button
+                android:id="@+id/pereira"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pereira" />
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
